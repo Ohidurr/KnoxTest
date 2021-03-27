@@ -1,9 +1,10 @@
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-   <header>knox test</header>
+      <header>Knox</header>
     </div>
   );
 }
