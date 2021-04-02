@@ -1,6 +1,6 @@
 import React from 'react'
 import Axios from 'axios';
-
+import '../css/imeiUpload.css'
 
 const { license_trial } = process.env;
 
@@ -13,7 +13,7 @@ const ImeiUpload = () => {
 
     }
 
-    <button>test4</button>
+    
     return(
         <div>
             <form>
@@ -22,7 +22,7 @@ const ImeiUpload = () => {
                     <option value="Upload">Remove</option>
                 </select>
                 <input placeholder="IMEI" ></input>
-                <button>Submit</button>
+                <button class="submit" handleSubmit >Submit</button>
             </form>
         </div>
     )

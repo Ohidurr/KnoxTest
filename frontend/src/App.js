@@ -7,7 +7,7 @@ import ImeiUpload from './components/ImeiUpload';
 const  App = () => {
   return (
     <div className="App">
-   <header>knox test</header>
+   <header style={{fontSize: 'xx-large'}}>Knox Test</header>
     <ImeiUpload />
     </div>
   );
