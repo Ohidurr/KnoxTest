@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 import './components/imeiUpload';
 function App() {
