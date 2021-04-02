@@ -2,18 +2,18 @@ import React from 'react'
 import axios from 'axios';
 
 
-const { license_trial } = procces.env;
-
+const { license_trial } = process.env;
+<button>test</button>
 const imeiUpload = () => {
-    debugger
-console.log("test2");
-    <form>
-       <select>
-           <li>"tst"</li>
-       </select>
-        
-    </form>
-}
+
+    <button>test</button>
+    return(
+        <div>
+        <button>test</button>
+
+            </div>
+    )
+    }
 
 
 
