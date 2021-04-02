@@ -1,9 +1,10 @@
 import React from 'react'
-import axios from 'axios';
+import Axios from 'axios';
 
 
 const { license_trial } = process.env;
-<button>test</button>
+
+console.log("test");
 const imeiUpload = () => {
 
     <button>test</button>
@@ -14,7 +15,8 @@ const imeiUpload = () => {
             </div>
     )
     }
-
+    
+     
 
 
 export default imeiUpload;
