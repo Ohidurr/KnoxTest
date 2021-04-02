@@ -1,13 +1,20 @@
 import React from 'react'
+import axios from 'axios';
 
-const uploadIMEI = (num,middleware) => [
 
+const { license_trial } = procces.env;
+
+const imeiUpload = () => {
+    debugger
+console.log("test2");
     <form>
-        insert IMEI: 
+       <select>
+           <li>"tst"</li>
+       </select>
         
     </form>
-]
+}
 
 
 
-export default uploadIMEI;
+export default imeiUpload;

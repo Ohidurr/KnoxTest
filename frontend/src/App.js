@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
    <header>knox test</header>
-    <imeiUpload />
+    <imeiUpload imeiUpload/>
     </div>
   );
 }
