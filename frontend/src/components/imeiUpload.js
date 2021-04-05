@@ -11,6 +11,11 @@ const ImeiUpload = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         
+        
+    }
+
+    const handleSelect = () => {
+
     }
 
     
