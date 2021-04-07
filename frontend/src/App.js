@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, useLocation, Route } from "react-router-dom"
 
-import './App.css';
+// import './App.css';
 import ImeiUpload from './components/ImeiUpload';
 import Signin from './components/Signin'
 

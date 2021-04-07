@@ -6,23 +6,22 @@ const Signin = (location) => {
     //redirects user to sign into samsung knox
 
     const getUser = () => {
-        try{
-            axios.get("?client_Id=$`Id`& response_type=code&redirect_uri=$`http://localhost:3000`")
-        }catch(error){
-            console.log("error");
-        }
-    }
-    return(
-
-        <div>
-            
-    <a href="https://account.samsung.com/accounts/v1/dfltThirdParty/signInGate">
-
-   <button>Sign In</button>
-</a>
-        </div>
-    )
+       axios({
+           method: 'get',
+           url: "https://account.samsung.com/accounts/v1/dfltThirdParty/signInGate",
+           response_type: "code%",
+           redirect_uri: "https://localhost:3000"
+           
+       })
+  
 }
+return(
+    <div>
+        <button getUser >Sign In</button>
+    </div>
+)
+}
+
 
 
 export default Signin
