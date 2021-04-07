@@ -11,8 +11,13 @@ const ImeiUpload = (res) => {
     
     const upload = () => {
         
+try{
+    let res = "https://us-kcs-api.samsungknox.com/kcs/v1/rp/devices/upload"
 
-        let res = "https://us-kcs-api.samsungknox.com/kcs/v1/rp/devices/upload"
+}catch(err){
+    console.log("error");
+}
+       
 
     }
     const  handleSubmit = (e) => {
